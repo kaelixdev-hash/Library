@@ -1,4 +1,4 @@
---Minha Versão única - Magnus Modificações 
+--Minha VersÃ£o Ãºnica - Magnus ModificaÃ§Ãµes 
 --Ser tive outro igual, e meu ramake rsrsrs
 local MarketplaceService = game:GetService("MarketplaceService")
 local UserInputService = game:GetService("UserInputService")
@@ -1071,7 +1071,7 @@ end
 	function Window:CloseBtn()
 		local Dialog = Window:Dialog({
 			Title = "Close",
-			Text = "Deseja realmente fechar o Drip Client? Ele contém recursos essenciais e fechar agora pode interromper funções importantes, causar falhas ou perder suas configurações. Cuidado antes de prosseguir!",
+			Text = "Deseja realmente fechar o Drip Client? Ele contÃ©m recursos essenciais e fechar agora pode interromper funÃ§Ãµes importantes, causar falhas ou perder suas configuraÃ§Ãµes. Cuidado antes de prosseguir!",
 			Options = {
 				{"Confirm", function()
 					ScreenGui:Destroy()
