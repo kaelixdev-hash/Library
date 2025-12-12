@@ -50,7 +50,7 @@ local redzlib = {
 			["Color Dark Text"] = Color3.fromRGB(180, 180, 180),
 			["Color Dark Purple"] = Color3.fromRGB(255, 0, 0),
 			["Color Hub 9"] = Color3.fromRGB(0, 0, 0, 0),
-			["Color Dark Greem"] = Color3.fromRGB(43, 255, 0)
+			["Color Dark Greem"] = 255, 0, 0)
 		}
 	},
 	Info = {
@@ -68,35 +68,8 @@ local redzlib = {
 	Options = {},
 	Flags = {},
 	Tabs = {},
-	Icons = (function()
-		return {
-			["anchor"] = "rbxassetid://10709761530",
-			["apple"] = "rbxassetid://10709761889",
-			["car"] = "rbxassetid://10709789810",
-			["carrot"] = "rbxassetid://10709789960",
-			["usercog"] = "rbxassetid://10747372167",
-			["userminus"] = "rbxassetid://10747372346",
-			["userplus"] = "rbxassetid://10747372702",
-			["userx"] = "rbxassetid://10747372992",
-			["info"] = "rbxassetid://10723415903",
-			["eye"] = "rbxassetid://10723346959",
-    	    ["home"] = "rbxassetid://10723407389",
-    	    ["truck"] = "rbxassetid://10747364031",
-			["headphones"] = "rbxassetid://10723406165",
-			["Drip"] = "rbxassetid://72495850369898",
-			["flame"] = "rbxassetid://10723376114",
-			["shirt"] = "rbxassetid://10734952036",
-			["settings"] = "rbxassetid://10734950309",
-			["shield"] = "rbxassetid://10734951847",
-			["coffee"] = "rbxassetid://10709810814",
-			["users"] = "rbxassetid //10747373426",
-            ["baby"] = "rbxassetid://10709769732",
-			["ghost"] = "rbxassetid://10723396107",
-			
-		}
-	end)()
+	Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/raelhubfunctions/Rael-hub-libary/refs/heads/main/Icons.lua"))()
 }
-
 local ViewportSize = workspace.CurrentCamera.ViewportSize
 local UIScale = ViewportSize.Y / 450
 
@@ -2452,4 +2425,5 @@ end
 end
 
 return redzlib
+
 
