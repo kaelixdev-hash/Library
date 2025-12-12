@@ -70,6 +70,7 @@ local redzlib = {
 	Tabs = {},
 	Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/raelhubfunctions/Rael-hub-libary/refs/heads/main/Icons.lua"))()
 }
+
 local ViewportSize = workspace.CurrentCamera.ViewportSize
 local UIScale = ViewportSize.Y / 450
 
@@ -2425,5 +2426,6 @@ end
 end
 
 return redzlib
+
 
 
